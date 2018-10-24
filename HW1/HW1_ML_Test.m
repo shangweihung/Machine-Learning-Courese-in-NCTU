@@ -6,13 +6,13 @@ xy_axis=csvread('X_train.csv');
 target=csvread('T_train.csv');
 test_axis=csvread('X_test.csv');
 
-%% Parameters setting
+%% Parameters setting  
 stride=13;
 local_size=25;
 map_size=1081;
 
 
-%% K-fold Cross-Validation
+%% K-fold Cross-Validation   
 for K=1:1:1
 
     %% Scanning;
@@ -40,7 +40,7 @@ for K=1:1:1
         end
     end
     
-    %% Create Design Matrix
+    %% Create Design Matrix  
     Design=zeros(length(target(1:30000)),length(mu_x));
 
     for j=1:length(target(1:30000))
@@ -50,10 +50,10 @@ for K=1:1:1
     end
     Design=[ones(length(target(1:30000)),1),Design];
 
-    %% Optimization
+    %% Optimization  
     W_ML=pinv(Design)*target(1:30000);
 
-    %% Estimation
+    %% Estimation  
     Estimate_Phi=[];
 
     for j=1:1:length(test_axis)
