@@ -18,7 +18,8 @@ Rebuild the Height map of the southern Taiwan based on the training data.
 * 1-hidden layer model
 * 2-hidden layer model
 * Implement stochastic gradient descent in backpropagation
-  
+
+**Use Database of Hand-written digis (MNIST database) for HW4 HW5**  
 **Homework 4 -- Support Vector Machine**  
 * Utilize libsvm Model  
 * (no code provided)  
