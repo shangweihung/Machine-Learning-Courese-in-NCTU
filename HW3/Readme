@@ -1,0 +1,5 @@
+P.S
+1.
+Put these .m files within the folder containing Class1,Class2 and Class3.
+2.
+In the first four files, M means the number of nodes in the first hidden layer; W means the number of nodes in the second hidden layer.
