@@ -1,0 +1,4 @@
+Rebuild the Height map of the southern Taiwan based on the training data  
+  
+In each file, there is two parameters stride and size, which are introduced in the HW1_Report.pdf. Stride is set as 13; Size is set as 25.
+Besides, in the beginning part of these codes, they read in three .csv files to train, validation and get the result of testing data.
