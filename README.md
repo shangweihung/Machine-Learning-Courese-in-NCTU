@@ -1,5 +1,7 @@
 ## Machine-Learning-Courese-in-NCTU
 Data: 02/2017-06/2017
+Enviorment language: MATLAB  
+Software:R2015b  
 
 **Homework 1 -- Linear Regression**  
 Rebuild the Height map of the southern Taiwan based on the training data.
